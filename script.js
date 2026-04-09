@@ -29,4 +29,5 @@ button.addEventListener("click", () => {
     ${ingeleverd[random]}<br>
     <button class="btn" id="btn">Klik hier</button>
   `;
+btn.style.visibility = "hidden";
 });
