@@ -1,0 +1,85 @@
+/* Lettertypen*/
+@font-face{
+    font-family: dunbar;
+    src: url(fonts/dunbar-tall-ultra.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Body en achtergrond*/
+body {
+  margin: 0;
+  font-family: dunbar;
+  background: url(images/AchtergrondKnopAnimated.gif);
+  background-size: 100%;
+  overflow: hidden;
+}
+
+/* roze introscherm */
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #e6a8cb;
+  transition: 1s;
+}
+
+/* logo op het introscherm */
+.logo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Lettertype in de knop*/
+button {
+  font-family: dunbar;
+}
+
+/* Roze headerbalk*/
+.header {
+  background: #e6a8cb;
+  padding: 3vh;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Knop kaart achtergrond dinges */
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #3c5eab;
+  padding: 5vh 5vh;
+  border-radius: 20px;
+  color: #f4f0ea;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+/* Als je over het kaartje met de knop met je muis beweegt*/
+.card:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* De Knop */
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #f4f0ea;
+  color: #3c5eab;
+  font-weight: bold;
+  font-size:xx-large;
+  border-radius: 10px;
+  cursor: pointer;
+}
