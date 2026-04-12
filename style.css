@@ -35,6 +35,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* Het postcode invulveld */
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-family: dunbar;
+  margin: 5px;
+  width: 200px;
+}
+
 /* Lettertype in de knop*/
 button {
   font-family: dunbar;
@@ -82,4 +93,10 @@ button {
   font-size: larger;
   border-radius: 10px;
   cursor: pointer;
+}
+
+/* Het logo na het inleveren */
+.card-img {
+  margin-top: 15px;
+  max-width: 120px;
 }
