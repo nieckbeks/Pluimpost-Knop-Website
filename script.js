@@ -27,6 +27,7 @@ button.addEventListener("click", () => {
   
   card.innerHTML = `
     ${ingeleverd[random]}<br>
+    <img src="images/rozelogo.png" class="card-img"><br>
     <button class="btn" id="btn">Klik hier</button>
   `;
 btn.style.display = "none";
